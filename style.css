@@ -1,0 +1,47 @@
+h1 {
+    color: aquamarine;
+    float: none;
+
+    
+}
+
+.topheader {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.intro {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.about {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    text-align: center;
+}   
+
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: pink;  }
