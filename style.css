@@ -1,10 +1,15 @@
 h1 {
     color: aquamarine;
     float: none;
-
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 
+p {
+    font-size: 18px;
+}
+
+/* Header style */
 .topheader {
     margin: auto;
     width: 50%;
@@ -12,36 +17,75 @@ h1 {
     text-align: center;
 }
 
+/* Intro style*/
 .intro {
     margin: auto;
     width: 50%;
     padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: auto;
 }
 
+/* about style*/
 .about {
     margin: auto;
     width: 50%;
     padding: 10px;
     text-align: center;
+    height: auto;
 }
 
+/* contact style*/
 .contact {
     margin: auto;
     width: 50%;
     padding: 10px;
+    height: auto;
 }
 
+/* My style*/
 .me {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: auto;
 }
 
+/* footer style*/
 .footer {
     text-align: center;
+    height: auto;
 }   
 
-a:link    { color: blue;  }
-a:visited { color: red;   }
-a:hover   { color: green; }
-a:active  { color: pink;  }
+/* unvisited link */
+a:link {
+    color:aquamarine;
+}
+
+/* visited link */
+a:visited {
+    color: yellow;
+}
+
+/* hovering over link */
+a:hover {
+    color: hotpink;
+}
+
+/* active link */
+a:active {
+    color: blue;
+  }
+
+
+.linkedin {
+    color: blue;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.github {
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
